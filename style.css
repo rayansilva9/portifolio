@@ -36,6 +36,8 @@ html {
 @media only screen and (max-width: 484px) {
   #header .nav-links {
     position: relative;
+    display: flex;
+    flex-direction: column;
     top: 7rem;
     right: -23rem;
     opacity: 1;
