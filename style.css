@@ -37,13 +37,13 @@ html {
   #header .nav-links {
     position: relative;
     top: 7rem;
-    right: -13rem;
+    right: -23rem;
     opacity: 1;
     transition: all 0.4s ease-in-out;
   }
 
   input[type='checkbox']:checked ~ .nav-links {
-    transform: translateX(-13rem);
+    transform: translateX(-23rem);
     display: flex;
     flex-direction: column;
     opacity: 1;
