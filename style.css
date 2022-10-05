@@ -56,7 +56,7 @@ html {
   }
   
   .nav-socials a i {
-   saturaty: 1;
+    filter: saturate(1);
   }
 
   /*===================HEADER============================================*/
